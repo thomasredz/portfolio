@@ -20,26 +20,21 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "thomasredz",
+  title: "Hello, I'm Thomas!",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
+    "A passionate Data Science enthusiast 🚀 with a strong interest in Web Development and AI, having experience in working with data analysis, machine learning, and building web applications using JavaScript / Python and other exciting tools and frameworks."),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/uc?export=download&id=1uD-ZwLUPauFBK5oejDyGJv6BuQir965S", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/thomasredz",
+  linkedin: "https://www.linkedin.com/in/thomas-rosso/",
+  gmail: "thomas.rosso@studenti.unipd.it",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +44,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "DATA SCIENTIST AND AI ENGINEER WITH PASSION FOR WEB DEVELOPMENT",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Perform data analysis and visualization to extract actionable insights"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Build machine learning models for predictive analytics and decision-making"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Develop and deploy data-driven applications using Python / R / SQL"
     )
   ],
 
@@ -65,56 +60,64 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "R",
+      fontAwesomeClassname: "fab fa-r-project"
+    },
+    {
+      skillName: "HTML 5",
       fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "CSS 3",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
+      skillName: "Bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
+    },
+    {
+      skillName: "C++",
+      fontAwesomeClassname: "fab fa-dev"
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "React",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "Node JS",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
+      skillName: "NPM",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "SQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Github",
+      fontAwesomeClassname: "fab fa-github"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +129,40 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "University of Padua",
+      logo: require("./assets/images/unipdLogo.png"),
+      subHeader: "Master of Science in Data Science",
+      duration: "September 2022 - Now",
+      desc: "Multidisciplinary course covering a broad range of theories and tools from engineering, computer science, mathematics, statistics, machine learning, artificial intelligence, and big data.",
+      /*
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
+        */
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      schoolName: "Instituto SUperior Tecnico (Lisbon)",
+      logo: require("./assets/images/istLogo.png"),
+      subHeader: "Erasmus - Exchange Student",
+      duration: "September 2023 - June 2024",
+      desc: "During my Erasmus+ exchange at IST Lisboa, I specialized in Data Science, focusing on Machine Learning, Big Data Analytics, and Statistical Methods. Collaborating with international peers, I enhanced my cross-cultural communication and teamwork skills. This experience significantly enriched my academic and global perspective.",
+      /*
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
+        */
+    },
+    {
+      schoolName: "University of Udine",
+      logo: require("./assets/images/uniudLogo.png"),
+      subHeader: "Bachelor of Science in Internet of Things, Big data and Web",
+      duration: "September 2018 - April 2022",
+      desc: "Multidisciplinary course including Computer Science, Data Science, Web, Human-Computer Interaction, Algorithms and Data Structures, Calculus.",
+      /*
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      */
     }
   ]
 };
@@ -150,7 +170,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -174,29 +194,29 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Engineer / Computer Vision and AI Engineer",
+      company: "BidPremium SRL",
+      companylogo: require("./assets/images/bidpremiumLogo.png"),
+      date: "April 2021 – April 2022",
+      desc: "Worked on AI and software development projects focused on defect detection in production and data extraction from paper-based documents.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed software for recognizing defects in production processes",
+        "Created software to transform information from paper sheets into usable data",
+        "Improved existing software for defect detection in production",
+        "Implemented API server for card grading system",
+        "Built datasets for AI-based projects"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Electronic Technician",
+      company: "R.D. Service",
+      companylogo: require("./assets/images/rdserviceLogo.png"),
+      date: "Internship",
+      desc: "Assisted in the setup and maintenance of electronic devices while ensuring effective customer communication.",
+      descBullets: [
+        "Handled the configuration and setup of electronic devices",
+        "Maintained communication with customers to provide technical support and service"
+      ]
     }
   ]
 };
@@ -239,7 +259,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -248,16 +268,17 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Advanced Computer Vision with TensorFlow",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Explored advanced image classification, object detection, and segmentation techniques using TensorFlow, including implementing models like R-CNN, ResNet-50, U-Net, and Mask-RCNN, and applying ML interpretation methods like saliency maps on AlexNet.",
+      image: require("./assets/images/courseraLogo.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
+        /*
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
@@ -270,33 +291,35 @@ const achievementSection = {
           name: "Google Code-in Blog",
           url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         }
+          */
       ]
+        
     },
     {
-      title: "Google Assistant Action",
+      title: "Intro to Deep Learning with PyTorch",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Mastered the basics of deep learning and built custom deep neural networks using PyTorch, an open-source library widely used for applications in NLP and Computer Vision.",
+      image: require("./assets/images/udacityLogo.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
-        {
+        /* {
           name: "View Google Assistant Action",
           url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+        } */
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Custom and Distributed Training with TensorFlow",
+      subtitle: "Learned to work with Tensor objects, eager and graph modes in TensorFlow, and used GradientTape for custom training loops. Gained hands-on experience with distributed training strategies using multiple GPUs and TPUs to accelerate large-scale model training.",
+      image: require("./assets/images/deepLogo.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        /* {name: "Certification", url: ""},
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        } */
       ]
     }
   ],
@@ -308,12 +331,12 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "With Love for Developing cool stuff, I tried to write and show others what I have learnt.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@thomasredz/so-you-wanna-list-a-property-on-the-airbnb-market-maybe-this-can-help-ffcbda1b4da0",
+      title: "So you wanna list a property on the Airbnb market? Maybe this can help",
       description:
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
@@ -343,7 +366,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +379,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -380,10 +403,10 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
